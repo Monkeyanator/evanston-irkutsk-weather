@@ -4624,7 +4624,7 @@ function _Browser_load(url)
 	}));
 }
 var author$project$Main$Loading = {$: 'Loading'};
-var author$project$Constants$baseWeatherAPIUrl = 'http://api.openweathermap.org/data/2.5/weather?q={0},{1}&units=imperial&APPID={2}';
+var author$project$Constants$baseWeatherAPIUrl = 'https://api.openweathermap.org/data/2.5/weather?q={0},{1}&units=imperial&APPID={2}';
 var author$project$Constants$weatherAPIKey = 'a3a63bb055705a67ca2ca018348f3d91';
 var elm$core$Basics$EQ = {$: 'EQ'};
 var elm$core$Basics$LT = {$: 'LT'};
