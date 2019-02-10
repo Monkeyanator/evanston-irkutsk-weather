@@ -121,7 +121,7 @@ generateComparisonText: Float -> Html msg
 generateComparisonText difference = 
     span [ classList [("warmer-accent-text", difference >= 0)
                       ,("colder-accent-text", difference < 0)] ] 
-          [ text ((String.fromFloat difference) ++ (if difference >= 0 then "° warmer " else "° colder ")) ]
+          [ text ((String.fromInt (round difference)) ++ (if difference >= 0 then "° warmer " else "° colder ")) ]
 
 -- HTTP
 

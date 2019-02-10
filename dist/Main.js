@@ -6263,7 +6263,7 @@ var author$project$Main$update = F2(
 	});
 var author$project$Constants$failureText = 'Failed to load the reports!';
 var author$project$Constants$loadingText = 'Loading...';
-var elm$core$String$fromFloat = _String_fromNumber;
+var elm$core$Basics$round = _Basics_round;
 var elm$json$Json$Decode$map = _Json_map1;
 var elm$json$Json$Decode$map2 = _Json_map2;
 var elm$json$Json$Decode$succeed = _Json_succeed;
@@ -6346,7 +6346,8 @@ var author$project$Main$generateComparisonText = function (difference) {
 			[
 				elm$html$Html$text(
 				_Utils_ap(
-					elm$core$String$fromFloat(difference),
+					elm$core$String$fromInt(
+						elm$core$Basics$round(difference)),
 					(difference >= 0) ? '° warmer ' : '° colder '))
 			]));
 };
