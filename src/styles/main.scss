@@ -1,0 +1,22 @@
+@import 'theme';
+
+body {
+    color: $primary;
+    background-color: $background;
+}
+
+.weather-information-text {
+    font-size: 8em;
+    font-family: $font;
+    padding: 10px;
+}
+
+.warmer-accent-text {
+    text-decoration: underline;
+    color: $warm-accent;
+}
+
+.colder-accent-text {
+    text-decoration: underline;
+    color: $cold-accent;
+}
