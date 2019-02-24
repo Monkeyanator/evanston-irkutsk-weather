@@ -1,7 +1,7 @@
 # Evanston - Irkutsk weather comparison
 > Because Evanston has become a virtual frozen wasteland
 
-I created this project from [https://github.com/Monkeyanator/elm-gulp-boilerplate](this boilerplate project that I made). The same build steps should apply, so I lifted them from there to here.
+I created this project from [this boilerplate project that I made](https://github.com/Monkeyanator/elm-gulp-boilerplate). The same build steps should apply, so I lifted them from there to here.
 
 ## Build instructions
 
