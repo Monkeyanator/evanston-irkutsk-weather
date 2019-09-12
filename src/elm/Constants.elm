@@ -3,7 +3,7 @@ module Constants exposing (evanstonWeatherEndpoint, irkutskWeatherEndpoint, fail
 -- vendored non standard imports
 import String.Interpolate exposing(interpolate)
 
-
+-- I'm aware I left the API key here, I simply do not care :)
 weatherAPIKey = "a3a63bb055705a67ca2ca018348f3d91"
 baseWeatherAPIUrl = "https://api.openweathermap.org/data/2.5/weather?q={0},{1}&units=imperial&APPID={2}"
 
